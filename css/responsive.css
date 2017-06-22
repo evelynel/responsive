@@ -16,8 +16,9 @@ div {
   flex: 1 1 auto;
   text-align: center;
 }
-div:hover {
-  background-color: gold;
+
+.header:hover {
+  background-color: green;
 }
 
 footer {
@@ -32,4 +33,28 @@ footer {
     flex-direction: column;
     font-size: 4em;
   }
+}
+
+section {
+  display: grid;
+}
+
+.entraineur {
+  grid-row-start: 1;
+}
+
+.gardien {
+  grid-row-start: 2;
+}
+
+.defenseurs {
+  grid-row-start: 3;
+}
+
+.milieux {
+  grid-row-start: 4;
+}
+
+.attaquants {
+  grid-row-start: 5;
 }
