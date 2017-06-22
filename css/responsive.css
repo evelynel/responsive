@@ -8,6 +8,7 @@ nav {
 @media all and (max-width: 740px) {
   nav {
     flex-direction: column;
+    font-size: 4em;
   }
 }
 div {
@@ -17,4 +18,50 @@ div {
 }
 div:hover {
   background-color: gold;
+}
+
+div#colonne1 {
+	float: left;
+	width: 30%;
+	background: navy;
+  color: grey;
+}
+
+@media all and (max-width: 740px) {
+  div#colonne1 {
+    float: left;
+    width: 150px;
+    background-color: navy;
+  }
+}
+
+div#colonne2 {
+	float: left;
+	width: 30%;
+	background: blue;
+  color: grey;
+}
+
+@media all and (max-width: 740px) {
+  div#colonne2 {
+    float: left;
+    width: 150px;
+    background-color: blue;
+  }
+}
+
+
+div#colonne3 {
+	float: left;
+	width: 30%;
+	background: lightblue;
+  color: grey;
+}
+
+@media all and (max-width: 740px) {
+  div#colonne3 {
+    float: left;
+    width: 150px;
+    background-color: grey;
+  }
 }
